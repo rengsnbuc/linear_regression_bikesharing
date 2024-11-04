@@ -1,36 +1,35 @@
 # Project Name
-> Outline a brief description of your project.
+This assignment is a programming assignment wherein you have to build a multiple linear regression model for the prediction of demand for shared bikes. You will need to submit a Jupyter notebook for the same. 
 
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+Data loading 
+Data processing like scalaing and encoding 
+Data analysis to find p values and VIF 
+Drop columnns that dont influence prediction 
+test train split 
+Train the model on training set 
+Predict on the test set 
 
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+Upgrad assignment on linear regression 
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+the temperature and  the weather situation seems to influecne the model or the number of users using the bike to a greater extent . Since the dataset has data only for two years , the year also has an influence on the model . The other parameters like if its holiday or weekday has not much relevance. The variables like holiday and month were dropped as these had high correlation with existing other independent variables 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+Scikitlearn 
+statsmodels 
+matplotlib
+seaborn libraraies 
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
@@ -43,10 +42,3 @@ Give credit here.
 
 ## Contact
 Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
